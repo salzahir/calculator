@@ -1,14 +1,28 @@
-
 body{
     margin: 0;
     align-items: center;
     background-color: goldenrod
 }
 
+body h1 {
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .outline{
     width: 320px;
     height: 600px;
     background-color: gray;
+    border-radius: 50px;
+    overflow: hidden; 
+
 }
 
 .answer{
@@ -16,6 +30,8 @@ body{
     height: 75px;
     background-color: rgb(76, 45, 72);
     padding: 25px;
+    color: white;
+    font-weight: bold;
 }
 
 .input{
@@ -23,6 +39,8 @@ body{
     justify-content: flex-end;
     align-items: center;
     height: 100%;
+    color: white;
+    font-weight: bold;
 }
 .answer a {
     display: flex;
